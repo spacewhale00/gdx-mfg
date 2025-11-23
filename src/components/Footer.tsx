@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,18 +18,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-rolex-green">Contact</h4>
             <div className="space-y-3">
               <a 
-                href="mailto:info@gdxmfg.com" 
+                href="mailto:sales@gdxmfg.com" 
                 className="flex items-center gap-3 text-metal-light hover:text-rolex-green transition-colors group"
               >
                 <Mail className="h-5 w-5" />
-                <span>info@gdxmfg.com</span>
-              </a>
-              <a 
-                href="tel:+15551234567" 
-                className="flex items-center gap-3 text-metal-light hover:text-rolex-green transition-colors group"
-              >
-                <Phone className="h-5 w-5" />
-                <span>(555) 123-4567</span>
+                <span>sales@gdxmfg.com</span>
               </a>
               <div className="flex items-start gap-3 text-metal-light">
                 <MapPin className="h-5 w-5 mt-1 flex-shrink-0" />

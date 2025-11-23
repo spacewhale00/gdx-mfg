@@ -16,7 +16,7 @@ const WhyGDXMFG = () => {
           <div>
             <div className="inline-block mb-6">
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-                Why <span className="text-rolex-green">GDXMFG</span>
+                Why GDX<span className="text-rolex-green">MFG</span>
               </h2>
               <div className="h-[2px] w-16 bg-rolex-green mt-4" />
             </div>
